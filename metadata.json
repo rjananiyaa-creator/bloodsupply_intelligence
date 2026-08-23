@@ -1,0 +1,6 @@
+{
+  "name": "BloodSupply Intelligence",
+  "description": "Intelligent blood supply management system for blood banks and hospitals to monitor inventory, donors, requests, and critical stock.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
