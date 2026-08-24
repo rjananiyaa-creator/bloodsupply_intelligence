@@ -5,6 +5,16 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    export default defineConfig(() => {
+  return {
+    base: '/bloodsupply_intelligence/',
+    plugins: [react(), tailwindcss()],
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '.'),
+      },
+    },
+    // ... rest of config
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
